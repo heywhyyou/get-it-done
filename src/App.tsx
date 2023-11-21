@@ -29,18 +29,18 @@ function App() {
 
   return (
     <div className="flex justify-center flex-col items-center gap-2 mt-64">
-      <p>GET IT DONE</p>
-      <p>Just your tasks. Yes, that simple.</p>
+      <p className="font-bungee-shade text-3xl">GET IT DONE</p>
+      <p className="font-roboto">Just your tasks. Yes, that simple.</p>
       <form onSubmit={handleSubmit} className="flex gap-4">
         <input
           type="text"
           value={value}
           onChange={handleChange}
-          className="text-black px-1"
+          className="custom-outline text-black px-1 outline focus-visible:outline"
         />
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center px-8"
         >
           Add
         </button>
