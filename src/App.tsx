@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="flex justify-center flex-col items-center gap-2 mt-64">
       <p className="font-bungee-shade text-3xl">GET IT DONE</p>
-      <p className="font-roboto">Just your tasks. Yes, that simple.</p>
+      <p className="font-roboto">Just your tasks. As simple as that.</p>
       <form onSubmit={handleSubmit} className="flex gap-4">
         <input
           type="text"
